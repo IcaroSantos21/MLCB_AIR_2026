@@ -13,3 +13,33 @@ Vocabulário Filtrado (sem stopwords): ['2a', '2a via', 'aberto', 'acordo', 'aco
 # Caso não ocorra a remoção das palavras genéricas, o modelo fica mais impreciso, aumenta a chance de alucinação, e deixa o algoritmo sobrecarregado!
 # Todos os resultados devem ser inseridos no arquivo resultados_aula03.md
 #========== FIM ==============
+
+# LAB 02
+
+--- RESULTADOS DO LAB 02 (AULA 03) ---
+
+--- Relatório de Classificação ---
+                     precision    recall  f1-score   support
+
+horario_atendimento       0.50      1.00      0.67         1
+        localizacao       0.00      0.00      0.00         1
+    troca_devolucao       0.00      0.00      0.00         1
+
+           accuracy                           0.33         3
+          macro avg       0.17      0.33      0.22         3
+       weighted avg       0.17      0.33      0.22         3
+
+--- Matriz de Confusão ---
+[[1 0 0]
+ [1 0 0]
+ [0 1 0]]
+
+ #========== PRODUÇÃO DO RELATÓRIO:==============
+# 1 - O que representam as métricas Precision, Recall e F1-Score no relatório?
+# Precision mede a taxa de acerto com base na resposta do bot, o recall mede a quantidade de retornos assertivos do bot, f1-score realiza a média do precision e recall.
+# 2 - Como interpretar a diagonal principal da Matriz de Confusão?
+# A diagonal está incorreta, pois à partir do coluna "localização" o que era para ser da linha "localização", vai para a linha "horário_atendimento" e o mesmo se repete com a coluna "troca_devolução", que a linha correta seria "troca_devolução" e está mandando para "localização"
+# 3 - Por que a acurácia isolada pode ser enganosa quando temos classes desbalanceadas?
+# Pois por mais que ele seja eficiente para uma classe, para as outras pode acabar sendo completamente ineficiente.
+# Todos os resultados devem ser inseridos no arquivo resultados_aula03.md
+#========== FIM ==============
