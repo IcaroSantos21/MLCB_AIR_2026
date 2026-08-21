@@ -35,3 +35,16 @@ O algoritmo rodou corretamente, porém a porcentagem da distribuição da classe
 
 3 - Detalhe a função do Naive Bayes no algorítmo.
 O Naive Bayes funciona da seguinte forma: ele pega a quantidade de palavras que aparece em uma frase e verifica qual a probabilidade daquelas palavras serem de determinado rótulo e com isso gerando o resultado.
+
+# LAB 03
+#========== PRODUÇÃO DO RELATÓRIO:==============
+### Para a entrega completa deste LAB03 você precisa colar o código corrigido com os TODOs preenchidos, a acurácia obtida e responder:
+### 1 - Qual foi a acurácia obtida pelo modelo no conjunto de teste e por que, em um dataset tão pequeno (9 exemplos), essa métrica pode ser enganosa?
+Acurácia do Modelo: 33.33%. Sim, pois o valor é raso, afinal não temos dados o suficiente para treino e teste. 
+### 2 - Como o modelo de Árvore de Decisão (DecisionTreeClassifier) toma a decisão de separar as intenções do usuário?
+Com base na presença ou ausência de palavras. 
+### 3 - Qual é o risco de utilizar uma Árvore de Decisão sem limite de profundidade (max_depth) em datasets de texto maiores?
+Ele armazena muitas palavras e aumenta o risco de errar, ou alucinar.
+### Todos os resultados devem ser inseridos no arquivo resultados_aula02.md
+
+#========== FIM ==============
