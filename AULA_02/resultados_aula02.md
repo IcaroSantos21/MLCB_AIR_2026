@@ -1,3 +1,8 @@
+### Participantes
+**Nome**: Icaro Rodrigues Santos **Ra**: 137061
+**Nome**: Rafael Matos Celestino **Ra**: 136771
+**Nome**: Adrián Páris Guerrero Vieira **Ra**: 137807
+
 # LAB 01
 
 --- RESULTADOS DO LAB 01 ---
@@ -48,3 +53,19 @@ Ele armazena muitas palavras e aumenta o risco de errar, ou alucinar.
 ### Todos os resultados devem ser inseridos no arquivo resultados_aula02.md
 
 #========== FIM ==============
+
+# LAB 04
+==================================================
+--- MOTOR DE NLU: AGÊNCIA DE VIAGENS ---
+==================================================
+Acurácia no conjunto de teste: 75.00%
+
+--- PREDIÇÃO DE MENSAGENS INÉDITAS ---
+Mensagem: 'Gostaria de saber o valor para voar até Paris'
+==> Intenção Predita: [comprar_passagem]
+
+Mensagem: 'Quero cancelar o bilhete que comprei ontem'
+==> Intenção Predita: [comprar_passagem]
+
+Mensagem: 'Me transfira para um suporte humano, por favor'
+==> Intenção Predita: [comprar_passagem]
