@@ -1,3 +1,8 @@
+### Participantes
+**Nome**: Icaro Rodrigues Santos **Ra**: 137061
+**Nome**: Rafael Matos Celestino **Ra**: 136771
+**Nome**: Adrián Páris Guerrero Vieira **Ra**: 137807
+
 # LAB 01
 --- RESULTADOS DO LAB 01 (AULA 03) ---
 Mensagem: 'Preciso urgente da segunda via da fatura'
